@@ -1,0 +1,36 @@
+.swiper-pagination-bullet {
+    background-color: white !important;
+    opacity: 0.5;
+    width: 4px !important;
+    height: 4px !important;
+    margin-right: 10px !important;    
+    vertical-align: middle !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+    opacity: 1;
+    width: 6px !important;
+    height: 6px !important;
+    vertical-align: middle !important;
+}
+
+.swiper-button-next {
+    right: -40px;
+}
+
+.swiper-button-prev img {
+    margin-left: -3px;
+}
+
+.swiper-button-next img {
+    margin-right: -3px;
+}
+
+.swiper-button-disabled {
+    visibility: hidden;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+    display: none;
+}
